@@ -27,10 +27,11 @@ const About = () => {
           <span>
             <MdWavingHand className="handIcon-small" />
           </span>
-          , welcome to my about section. <br /> I am a Bologna-based frontend
-          developer who loves clean designs and functional websites. <br /> I
-          aim to know everything about web development and I am constantly
-          updating my skills. <br /> Hope you will enjoy the visit.
+          , welcome to my about section. <br /> My name is Alessio Garrouche, I
+          am a Bologna-based frontend developer who loves clean designs and
+          functional websites. <br /> I aim to know everything about web
+          development and I am constantly updating my skills. <br /> Hope you
+          will enjoy the visit.
         </p>
       </div>
 
@@ -57,4 +58,8 @@ const About = () => {
   );
 };
 
-export default AppWrap(About, "about");
+export default AppWrap(
+  MotionWrap(About, "app__about"),
+  "about",
+  "app__whitebg"
+);

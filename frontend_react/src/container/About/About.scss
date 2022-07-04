@@ -11,6 +11,10 @@
   p {
     padding-inline: 9rem;
     margin-top: 1rem;
+
+    @media screen and (max-width: 1200px) {
+      padding-inline: 3rem;
+    }
   }
 }
 

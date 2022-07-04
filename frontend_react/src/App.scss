@@ -29,6 +29,10 @@
   align-items: center;
 }
 
+.app__gap {
+  gap: 2rem;
+}
+
 .app__wrapper {
   flex: 1;
   width: 100%;
@@ -70,7 +74,7 @@
     font-size: 4rem;
   }
 
-  @media screen and (max-width: 450px) {
+  @media screen and (max-width: 470px) {
     font-size: 2rem;
   }
 }
@@ -184,7 +188,7 @@
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   .app__navigation,
   .app__social {
     display: none;
